@@ -1,11 +1,13 @@
 
 public class CharExample {
-     public static void main(String[] args)  {
-        char c1 = 97;
-		int int1;
-		for (int i=-0; i<26; i++)  {
-			int1 = ++c1;
-		    System.out.println("int1 : " + int1 + ", c1 : " + c1);
+	public static void main(String[] args){
+	char b1 = 'A';
+	char b2 = 44032;
+		for(char i=0; i<5; i++) {
+			b1++;
+			b2++;
+			System.out.println("b1 - " + b1 + " 	" + "b2  - " + b2);
+		
 		}
-	 }		 
+	}
 }
