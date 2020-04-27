@@ -27,12 +27,11 @@ public class CharOperationExample {
     public static int minus(int num3, int num4) {
         int result = num3 - num4;
         return result;
-     } // end of minus()
-     
+    } // end of minus()
+
     public static double divide(int num5, int num6) {
         double result = (double) num5 / num6;
         return result;
     }
-        
 
 }

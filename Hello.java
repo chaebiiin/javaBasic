@@ -1,4 +1,3 @@
-package com.yedam.prod; // com.yedam.prod.Hello 
 
 public class Hello {
        public static void main(String[] args)  {
