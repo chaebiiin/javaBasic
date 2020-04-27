@@ -4,6 +4,8 @@ public class BitReverseOperatorExample {
 			int num1 = 10;
 			int num2 = ~num1;
 			int num3 = num2 + 1;
+			//java2 conflict..
+			
 			String returnValue = toBinaryString(num1);
 			System.out.println(returnValue);
 		
