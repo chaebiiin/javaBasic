@@ -7,10 +7,10 @@ public class EvenSumExample {
             System.out.println("2 또는 3의 배수 :  " + i); // AND
            }
         if ((i % 2 == 0) && (i % 3 == 0)) {
-            System.out.println("2 와 3의 배수:  " + i); // OR
+            System.out.println("2 와 3의 배수:  " + i); // OR 2와 3의 공통 배수.
         }
         if( !(i%2==0)) { // <-홀수
-            System.out.println("홀수 값 : " +i);
+            System.out.println("홀수 값 : " + i);
         }
     }
   }
